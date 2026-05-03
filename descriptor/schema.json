@@ -1,0 +1,21 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "#/controls",
+    "type": "object",
+    "title": "Controls Section Schema",
+    "properties": {
+        "logger": {
+            "type": "object",
+            "title": "Logging Configuration",
+            "properties": {
+                "level": {
+                    "type": "integer",
+                    "title": "Logging Level",
+                    "minimum": 1,
+                    "maximum": 5,
+                    "default": 3
+                }
+            }
+        }
+    }
+}
